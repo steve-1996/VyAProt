@@ -1,18 +1,61 @@
 <!DOCTYPE html>
 <html>
-<style @media="screen">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+ integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+
+@media (min-width: 600px) {
+    body {
+        ;
+    }
+}
+
+@media (max-width: 599px) {
+    body {
+        background-color: black;
+    }
+}
+
+    .cabeza {
+      background-color: #D73E1D; padding-top:10px; padding-bottom:20px; margin: 10px;
+    }
+    .cuerpo {
+      background-color: #FA9984; text-align: center;padding-top: 20px;
+    }
+    .container {text-align: center;}
     h1,h2 { text-align:center }
 </style>
+
+
     <head>
+      <div class="cabeza" align="center">
+        <link rel="stylesheet" href="variable.css">
           <title>Viajes y arte</title>
         <header>
               <h1>Viajes Y Arte<h1>
               <h2>Memento Mori-Disfruta la Vida</h2>
         </header>
         <img src="images/PortadaProt.jpg" title="Estambul-Mezquita"
-              width="100%">
+              width="75%">
+      </div>
     </head>
+
+
     <body>
+      <div class="cuerpo">
           <p>Este es un prototipo de como se vera mi pagina web a cerca de viajes y arte</p>
-          <
+      </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-md">
+            <p>Estambul
+            </div>
+            <div class="col-5">
+            <p>Oslo-Noruega</p>
+            </div>
+            <div class="col-md">
+            <p>Hamburgo</p>
+            </div>
+          </div>
+      </div>
     </body>
